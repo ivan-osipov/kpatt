@@ -6,6 +6,7 @@ Patterns:
 
 [Specification](#Specification)
 
+
 ## Dependency ##
 
 ```groovy
@@ -23,8 +24,8 @@ dependencies {
 
 ## How to use ##
 
-[Specification](/src/main/kotlin/Specification.kt)
-
+[Specification](/src/main/kotlin/kpatt/Specification.kt)
+--------
 
 ```kotlin
 val data = "string"
