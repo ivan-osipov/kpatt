@@ -4,7 +4,7 @@ This library contains an implementation of some design patterns.
 
 Patterns:
 
-[Specification](#Specification)
+[Specification](#specification)
 
 
 ## Dependency ##
