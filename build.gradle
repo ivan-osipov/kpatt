@@ -21,8 +21,8 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
-    testRuntime("org.junit.platform:junit-platform-launcher:1.2.0")
-    testRuntime("org.junit.jupiter:junit-jupiter-engine:5.2.0")
+    testCompile("org.junit.platform:junit-platform-launcher:1.2.0")
+    testCompile("org.junit.jupiter:junit-jupiter-engine:5.2.0")
 }
 
 compileKotlin {

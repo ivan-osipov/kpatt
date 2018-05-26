@@ -6,15 +6,15 @@ import org.junit.jupiter.api.Test
 
 class SpecificationTests {
 
-    class StringHasLength(val length: Int): CompositeSpecification<String>() {
+    class StringHasLength(private val length: Int): Specification<String> {
         override fun isSatisfiedBy(candidate: String) = candidate.length == length
     }
 
-    class StringHasEnd(val suffix: String): CompositeSpecification<String>() {
+    class StringHasEnd(private val suffix: String): Specification<String> {
         override fun isSatisfiedBy(candidate: String) = candidate.endsWith(suffix)
     }
 
-    class StringContains(val text: String): CompositeSpecification<String>() {
+    class StringContains(private val text: String): Specification<String> {
         override fun isSatisfiedBy(candidate: String) = candidate.contains(text)
     }
 
