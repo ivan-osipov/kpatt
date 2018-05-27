@@ -4,7 +4,7 @@ This library contains an implementation of some design patterns.
 
 Patterns:
 
-[Specification](#specification)
+[Specification](#specification)  
 [Visitor](/src/main/kotlin/kpatt/Visitor.kt)
 
 
