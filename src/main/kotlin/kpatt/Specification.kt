@@ -1,5 +1,6 @@
 package kpatt
 
+
 interface Specification<T> {
     infix fun isSatisfiedBy(candidate: T): Boolean
 }
